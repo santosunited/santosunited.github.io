@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/index.html</loc>
+  <lastmod>2014-06-19T20:33:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/about.html</loc>
+  <lastmod>2014-06-19T20:32:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/triumphs.html</loc>
+  <lastmod>2014-06-19T20:33:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/family_sponsors.html</loc>
+  <lastmod>2014-06-19T20:32:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/future_santos.html</loc>
+  <lastmod>2014-06-19T20:32:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/contactus.html</loc>
+  <lastmod>2014-06-19T20:32:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://santosunitedfc.cloudvent.net/calendar.html</loc>
+  <lastmod>2014-06-19T20:32:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

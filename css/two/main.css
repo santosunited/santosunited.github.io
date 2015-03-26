@@ -1,0 +1,680 @@
+@font-face {
+    font-family: 'champ_it';
+    src: url('../fonts/champ/champagne__limousines_italic1-webfont.eot');
+    src: url('../fonts/champ/champagne__limousines_italic1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/champ/champagne__limousines_italic1-webfont.woff') format('woff'),
+         url('../fonts/champ/champagne__limousines_italic1-webfont.ttf') format('truetype'),
+         url('../fonts/champ/champagne__limousines_italic1-webfont.svg#champagne__limousinesitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'champ';
+    src: url('../fonts/champ-n/champagne__limousines-webfont.eot');
+    src: url('../fonts/champ-n/champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/champ-n/champagne__limousines-webfont.woff') format('woff'),
+         url('../fonts/champ-n/champagne__limousines-webfont.ttf') format('truetype'),
+         url('../fonts/champ-n/champagne__limousines-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img {
+    border:none;
+}
+
+button {
+    outline:none;
+}
+
+.cover {
+    border-radius:6px;
+}
+
+.sponsors {
+    
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    -webkit-opacity:0.5;   
+    -moz-opacity:0.5;   
+    -o-opacity:0.5;   
+    opacity:0.5;   
+}
+
+.sponsors:hover {
+    -webkit-opacity:1;   
+    -moz-opacity:1;   
+    -o-opacity:1;   
+    opacity:1; 
+}
+
+#cover {
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+#cover:hover {
+    -webkit-filter:grayscale(0%);
+    -moz-filter:grayscale(0%);
+    -o-filter:grayscale(0%);
+    filter:grayscale(0%);
+}
+
+h1.title {
+	margin:0;
+	padding:0;
+	margin-bottom:50px;
+	text-align:center;
+	font-family:'champ', sans-serif, helvetica, arial;
+	font-size:56px;
+	color:#fe1f9a;
+	-webkit-animation: title_an 3s linear;
+	-moz-animation: title_an 3s linear;
+	-o-animation: title_an 3s linear;
+	animation: title_an 3s linear;
+}
+
+@-webkit-keyframes title_an {
+	0% {color:#000;}
+	50% {color:#fe1f9a;}
+	100 {color:#fe1f9a;}
+}
+
+.main_sect h1 {
+	color:#000;
+	font-family:'champ_it', sans-serif, helvetica, arial;
+	text-align:center;
+	padding:0;
+	margin:auto;
+	margin-bottom:10px;
+	-webkit-transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	transition:all 0.1s ease-in-out;
+}
+
+.main_sect:hover h1 {
+	color:#fe1f9a;
+}
+
+.main_sect img {
+	border-radius:6px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+}
+
+#about_santos {
+    margin:0px 15px 16px 0px;
+    height:100%;
+    height:300px;
+    width:100%;
+    width:419px;
+    display:inline-block;
+    float:left;
+}
+
+#triumphs_santos {
+    float:right;
+    margin:0px 0px 16px 0px;
+    height:300px;
+    width:419px;
+    display:inline-block;
+}
+
+#family-spons_santos {
+    float:left;
+    margin:0px 16px 16px 0px;
+    height:300px;
+    width:419px;
+    display:inline-block;
+}
+
+#future_santos {
+    float:right;
+    margin:0px 0px 16px 0px;
+    height:300px;
+    width:419px;
+    display:inline-block;
+}
+
+/* About Santos */
+
+.about_sect img {
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.about_sect a {
+	padding:0;
+	margin:0 auto;
+	text-decoration:none;	
+}
+
+.main_about {
+	margin-right:33px;
+	height:420px;
+	width:250px;
+	display:inline-block;
+}
+
+.main_about h3 {
+	color:#000;
+	text-align:center;
+	font-family:'champ', sans-serif, helvetica, arial;
+	font-size:35px;
+	padding:0;
+	margin:auto;
+	margin-bottom:20px;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+
+.main_about:hover img {
+	-webkit-filter:grayscale(0%);
+	-moz-filter:grayscale(0%);
+	-o-filter:grayscale(0%);
+	filter:grayscale(0%);
+}
+
+.main_about:hover h3 {
+	color:#fe1f9a;
+}
+
+#contact_sec {
+    width:850px;
+    height:auto;
+    min-height:480px;
+}
+
+.contacts {
+    height:auto;
+    min-height:230px;
+    width:850px;
+    margin-bottom:20px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.contacts:hover img.contact_pic {
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    -webkit-filter:brightness(1);
+    -moz-filter:brightness(1);
+    -o-filter:brightness(1);
+    filter:brightness(1);
+    box-shadow:none;
+    -webkit-transform:translatey(4px);
+}
+
+img.contact_pic {
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    float:left;
+    border-radius:6px;
+    box-shadow:0px 4px 0px #000;
+    border:2px solid #000;
+    -webkit-filter:brightness(0.8);
+    -moz-filter:brightness(0.8);
+    -o-filter:brightness(0.8);
+    filter:brightness(0.8);
+}
+
+.contact_info {
+    width:494px;
+    height:auto;
+    float:right;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.contact_info p {
+    font-family:'champ', sans-serif, helvetica;
+    font-size:29px;
+    padding:0;
+    margin-top:20px;    
+}
+
+
+
+.future_info {
+    width:860px;
+    margin:auto;
+    margin-top:15px;
+    height:auto;
+}
+
+.future_info p {
+    font-family:'champ', helvetica;
+    font-size:26px;
+    padding:0;
+    padding-right:30px;
+    margin:0;
+    line-height:35px;
+}
+
+img.future_cover {
+    margin:auto;
+    padding:auto;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -o-border-radius:6px;
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+img.future_cover:hover {
+    -webkit-filter:grayscale(0%);      
+    -moz-filter:grayscale(0%);      
+    -o-filter:grayscale(0%);      
+    filter:grayscale(0%);      
+}
+
+.just_color {
+    color:#fe1f9a;
+    text-decoration: none;
+    
+}
+
+.just_color:hover {
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    color:#efc312;
+}
+
+.contact_info a {
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.champ_it {
+    font-family:'champ_it', sans-serif;
+}
+
+.quanda {
+    
+}
+
+.qanda h3 {
+    padding-bottom:10px;;
+    margin:auto;
+    color:#FF259F;
+    font-family:'champ';
+    font-size:25px;
+}
+
+.qanda h4 {
+    padding-bottom:30px;
+    margin:auto;
+    color:#EFC517;
+    font-family:'champ';
+    font-size:20px;
+    line-height:43px;
+}
+
+.qanda h4 a {
+    text-decoration:none;
+    color:#FF259F;
+}
+
+#family_sponsors {
+    padding:0;
+    margin:auto;
+}
+
+#family_sponsors a {
+    text-decoration:none;   
+}
+
+#family_sponsors h2 {
+    text-align:center;
+    font-family:'champ_it', sans-serif;
+    font-size:30px;
+    padding:0;
+    margin:0 auto;
+}
+
+#family_sponsors img {
+    margin:0px 92px;
+    margin-top:105px;
+    text-align:center;
+}
+
+.home-about {
+    background:url(../images/Aboutsantosunitedfc.png) no-repeat;
+    width: 420px;
+    height: 249px;
+    border-radius:6px;
+}
+
+/*
+.home-about:hover {
+    -webkit-animation: home-about 8s linear infinite;
+    -moz-animation: home-about 8s linear infinite;
+    -o-animation: home-about 8s linear infinite;
+    animation: home-about 8s linear infinite;
+}
+*/
+
+/*
+@-webkit-keyframes home-about {
+    0%      {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+    50%     {background:url(../images/h_slide/1a.JPG) no-repeat;}
+    100%    {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+}
+
+@-moz-keyframes home-about {
+    0%      {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+    50%     {background:url(../images/h_slide/1a.JPG) no-repeat;}
+    100%    {background:url(../images/Aboutsantosunitedfc.png) no-repeat;} 
+}
+
+@-o-keyframes home-about {
+    0%      {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+    50%     {background:url(../images/h_slide/1a.JPG) no-repeat;}
+    100%    {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+}
+
+@keyframes home-about {
+    0%      {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+    50%     {background:url(../images/h_slide/1a.JPG) no-repeat;}
+    100%    {background:url(../images/Aboutsantosunitedfc.png) no-repeat;}
+}
+*/
+
+.home-phil {
+    background:url(../images/familyandsponsors.png) no-repeat;
+    width: 420px;
+    height: 249px;
+    border-radius:6px;
+}
+
+/*
+@-webkit-keyframes home-phil {
+    0%      {background:url(../images/familyandsponsors.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1b.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2b.JPG) no-repeat;}
+    100%    {background:url(../images/familyandsponsors.png) no-repeat;}
+}
+
+@-moz-keyframes home-phil {
+    0%      {background:url(../images/familyandsponsors.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1b.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2b.JPG) no-repeat;}
+    100%    {background:url(../images/familyandsponsors.png) no-repeat;}
+}
+
+@-o-keyframes home-phil {
+    0%      {background:url(../images/familyandsponsors.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1b.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2b.JPG) no-repeat;}
+    100%    {background:url(../images/familyandsponsors.png) no-repeat;}
+}
+
+@keyframes home-phil {
+    0%      {background:url(../images/familyandsponsors.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1b.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2b.JPG) no-repeat;}
+    100%    {background:url(../images/familyandsponsors.png) no-repeat;}
+}
+*/
+
+.home-fam {
+    background:url(../images/group.jpg) no-repeat;
+    width:420p;
+    height:249px;
+    border-radius:6px;
+}
+
+/*
+@-webkit-keyframes home-fam {
+    0%      {background:url(../images/group.jpg) no-repeat;}
+    25%     {background:url(../images/h_slide/1c.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2c.JPG) no-repeat;}
+    100%    {background:url(../images/group.jpg) no-repeat;}
+}
+
+@-moz-keyframes home-fam {
+    0%      {background:url(../images/group.jpg) no-repeat;}
+    25%     {background:url(../images/h_slide/1c.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2c.JPG) no-repeat;}
+    100%    {background:url(../images/group.jpg) no-repeat;}
+}
+
+@-o-keyframes home-fam {
+    0%      {background:url(../images/group.jpg) no-repeat;}
+    25%     {background:url(../images/h_slide/1c.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2c.JPG) no-repeat;}
+    100%    {background:url(../images/group.jpg) no-repeat;}
+}
+
+@keyframes home-fam {
+    0%      {background:url(../images/group.jpg) no-repeat;}
+    25%     {background:url(../images/h_slide/1c.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2c.JPG) no-repeat;}
+    100%    {background:url(../images/group.jpg) no-repeat;}
+}
+*/
+
+.home-future {
+    background:url(../images/futureofsantos.png) no-repeat;
+    width:420px;
+    height:249px;
+    border-radius:6px;
+}
+
+/*
+@-webkit-keyframes home-future {
+    0%      {background:url(../images/futureofsantos.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1d.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2d.JPG) no-repeat;}
+    100%    {background:url(../images/futureofsantos.png) no-repeat;}
+}
+
+@-moz-keyframes home-future {
+    0%      {background:url(../images/futureofsantos.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1d.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2d.JPG) no-repeat;}
+    100%    {background:url(../images/futureofsantos.png) no-repeat;}
+}
+
+@-o-keyframes home-future {
+    0%      {background:url(../images/futureofsantos.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1d.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2d.JPG) no-repeat;}
+    100%    {background:url(../images/futureofsantos.png) no-repeat;}
+}
+
+@keyframes home-future {
+    0%      {background:url(../images/futureofsantos.png) no-repeat;}
+    25%     {background:url(../images/h_slide/1d.JPG) no-repeat;}
+    50%     {background:url(../images/h_slide/2d.JPG) no-repeat;}
+    100%    {background:url(../images/futureofsantos.png) no-repeat;}
+}
+*/
+
+#family_sponsors p {
+    text-align: center;
+}
+
+#timber_army-info {
+    display:none;
+    position:absolute;
+    float:left;
+    margin-left:60px;
+    margin-top:-5px;
+    width:250px;
+    height:auto;
+    min-height:105px;
+    max-height:105px;
+    background:#EFC517;
+    border-radius:6px;
+    border:1px solid #B09111;
+}
+
+#timber_army-info p {
+    margin:auto;
+    margin-top:9px;
+    width:225px;
+    height:auto;
+    max-height:105px;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+#timber_army-info svg {
+    position:absolute;
+    top:95px;
+    left:100px;
+    height:35px;
+    width:35px;
+}
+
+/*********/
+
+#clp-info {
+    display:none;
+    position:absolute;
+    clear:both;
+    width:250px;
+    height:auto;
+    min-height:105px;
+    max-height:105px;
+    background:#EFC517;
+    border-radius:6px;
+    margin-top:-270px;
+    margin-left:490px;
+    border:1px solid #B09111;
+}
+
+#clp-info p {
+    margin:auto;
+    margin-top:9px;
+    width:225px;
+    height:auto;
+    max-height:105px;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+#clp-info svg {
+    position:absolute;
+    top:95px;
+    left:100px;
+    height:35px;
+    width:35px;
+}
+
+/*******/
+#timbers-info {
+    display:none;
+    position:absolute;
+    float:left;
+    margin-left:60px;
+    margin-top:-8px;
+    width:250px;
+    height:auto;
+    min-height:105px;
+    max-height:105px;
+    background:#EFC517;
+    border-radius:6px;
+    border:1px solid #B09111;
+}
+
+#timbers-info p {
+    margin:auto;
+    margin-top:9px;
+    width:225px;
+    height:auto;
+    max-height:105px;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+#timbers-info svg {
+    position:absolute;
+    top:95px;
+    left:100px;
+    height:35px;
+    width:35px;
+}
+
+/******/
+#xtreme-info {
+    display:none;
+    position:absolute;
+    margin-top:-250px;
+    margin-left:500px;
+    width:250px;
+    height:auto;
+    min-height:105px;
+    max-height:105px;
+    background:#EFC517;
+    border-radius:6px;
+    border:1px solid #B09111;
+}
+
+#xtreme-info p {
+    margin:auto;
+    margin-top:9px;
+    width:225px;
+    height:auto;
+    max-height:105px;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+#xtreme-info svg {
+    position:absolute;
+    top:95px;
+    left:100px;
+    height:35px;
+    width:35px;
+}
+#slider_content {
+    width:900px;
+    height:300px;
+    background:Red;
+    margin:auto;
+}
